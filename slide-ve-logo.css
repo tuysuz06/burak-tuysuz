@@ -1,0 +1,8 @@
+#baslik img{
+    position: absolute;
+    top: 40px;
+    z-index: 9;
+}
+#baslik #ust-yazi{
+    padding: 20px 0px 20px 200px;
+}

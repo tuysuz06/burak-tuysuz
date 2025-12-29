@@ -1,0 +1,97 @@
+.kart-kapsayici, .kart-kapsayici * {
+    box-sizing: border-box;
+}
+
+.kart-kapsayici {
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    gap: 30px;             
+    width: 100%;
+    padding: 20px 0;
+}
+
+.kart-link {
+    text-decoration: none;
+    display: block;
+
+    width: 280px;  
+    min-width: 250px; 
+}
+.kart-link:hover .personel-kart {
+    background-color: rgb(205, 205, 205);
+    box-shadow: 0 20px 30px rgba(142, 139, 139, 0.15);
+    border-color: #020202;
+}
+
+
+.personel-kart {
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+    
+    gap: 15px; 
+    
+    width: 100%;
+    height: 100%; 
+    padding: 30px 20px; 
+    
+    background: #9e9fa1; 
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    
+   
+    text-align: center; 
+    
+    transition: all 0.3s ease; 
+    box-shadow: 0 5px 15px rgb(205, 205, 205);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.resim-alani {
+    flex-shrink: 0;
+}
+
+.personel-kart .resim-alani img {
+    width: 110px !important;  
+    height: 110px !important;
+    object-fit: cover;
+    
+    border-radius: 50%;
+    border: 3px solid #000000;
+    box-shadow: 0 5px 15px rgb(205, 205, 205);
+    
+    float: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+.bilgi-alani {
+
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.bilgi-alani h3 {
+    color: #000000; 
+    font-size: 1.2rem; 
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.bilgi-alani p {
+    color: #000000; 
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.4;
+}

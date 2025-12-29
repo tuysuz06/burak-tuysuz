@@ -1,0 +1,166 @@
+*{margin: 0px; padding: 0px;}
+
+#sayfa{
+    width: 1150px;
+    border: 2px solid black;
+    margin: auto;
+    background-color: azure;
+}
+#baslik {
+    background-color: rgb(108, 108, 108);
+    overflow: hidden;
+}
+#baslik img{
+    width: 150px;
+    padding: 25px;
+    float: left;
+    margin-right: 25px;
+    z-index: 9;
+}
+#baslik h1{
+    padding-top: 60px;
+}
+#menu {
+    overflow: hidden;
+    background-color: rgb(84, 84, 84);
+}
+#menu ul {
+    list-style-type: none;
+}
+#menu li  {
+    float: left;
+}
+#menu li a{
+    display: block;
+    padding: 15px 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+#menu li a:hover{
+    background-color: rgb(108, 108, 108);
+}
+#icerik {
+    background-color: rgb(211, 211, 211);
+    padding: 50px;
+    text-align: justify;
+    overflow: hidden;
+}
+#icerik img{
+    width: 500px;
+    float: left;
+    padding: 0px 25px 25px 0px;
+}
+#icerik p{
+    font-size: 1.1em;
+    text-indent: 50px;
+    padding-top: 20px;
+}
+#icerik h2 {
+    margin-top:30px ;
+}
+#adres {
+    background-color:  rgb(84, 84, 84);
+    color: white;
+}
+#adres #sol {
+    float: left ;
+    width: 600px;
+}
+#adres #sol img {
+    float: left;
+    width: 150px;
+    padding: 0px 25px;
+    padding-top: 30px;
+}
+#adres #sol p{
+    font-size: 1.1em;
+    padding-top: 60px;
+}
+#adres #sag {
+    width: 300px;
+    float: right;
+    padding: 50px 0px 0px 60px;
+    height: 150px;
+}
+#adres #sag li a{
+    text-decoration: none;
+    color: rgb(225, 225, 225);
+}
+#adres #sag li{
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+
+
+
+/*Nav Bar Yapımı*/
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 1.2em;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15px 25px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(108, 108, 108);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.fa-caret-down{
+   padding-left: 5px;
+}
+body{
+ background-image: url(resimler/wallpaper.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

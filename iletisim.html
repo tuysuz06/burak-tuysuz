@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selçuk Universitesi - Akören MYO</title>
+     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="resimler/logo_tr.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="slide-ve-logo.css">
+    <style>
+        #iletisim-bilgi{
+            padding-left: 100px;
+            padding-top: 100px;
+        }
+        iframe{
+            margin-right: 50px;
+            border-radius: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div id="sayfa">
+            <div id="baslik">
+                <img src="resimler/logo_tr.png">
+                <div id="ust-yazi">
+                    <h1>SELÇUK UNİVERSİTESİ</h1>
+                    <h2>Akören Ali Rıza Ercan Meslek Yüksekokulu</h2>
+                </div>
+            </div>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                    <img src="resimler/slide/slide_1.webp" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                    <img src="resimler/slide/slide_2.webp" style="width:100%">
+                    </div>
+
+                    <div class="mySlides fade">
+                    <img src="resimler/slide/slide_3.webp" style="width:100%">
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <div class="dropdown">
+                    <button class="dropbtn">Bölümler 
+                    <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                    <a href="dersler/bilgisayar.html">Bilgisayar Programcılığı</a>
+                    <a href="dersler/elektrik.html">Elektronik Ve Otomasyon</a>
+                    <a href="dersler/finans.html">Finans Bankacılık Ve Sigortacılık</a>
+                    <a href="dersler/muhasebe.html">Muhasebe Ve Vergi</a>
+                    <a href="dersler/lojistik.html">Lojistik</a>
+                    <a href="dersler/yerelyonetimler.html">Yerel Yönetimler</a>
+                    </div>
+                    </div> 
+                    <li><a href="personel.html">Personel</a></li>
+                    <li><a href="ogrenci.html">Öğrenci</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div> <!--Menu Bitişi-->
+            <div id="icerik">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3167.96463808546!2d3235979761203318!3d375844427195037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x14da5f8ec87d9df7%3A0xf5be2fbbc27ea054!2sSel%C3%A7uk%20%C3%9Cniversitesi%20Ak%C3%B6ren%20li%20R%C4%B1za%20Ercan%20Meslek%20Y%C3%BCksek%20Okulu!5e0!3m2!1sen!2str!4v1767007324533!5m2!1sen!2str"width="600" height="450" style="border:0; float: left;" allowfullscreen="" loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                <div id="iletisim-bilgi">
+                        <h3>İletişim Bilgileri</h3>
+                        <p style="text-indent: 0px; padding: 0;">Telefon: 0 332 461 28 90</p>
+                        <p style="text-indent: 0px; padding: 0;">Fax: 0 332 461 28 92</p>
+                        <p style="text-indent: 0px; padding: 0;">Mail: <a href="mailto:akorenmyo@selcuk.edu.tr">akorenmyo@selcuk.edu.tr</a></p>
+                        <h3>Adres</h3>
+                        <p style="text-indent: 0px; padding: 0;">Akören Ali Rıza Ercan MYO <br>
+                        Yeni Mahalle Nurullah Ercan Sokak <br>
+                        Pk:42060 Akören/KONYA</p>
+                                </div>
+            </div> <!--İçerik Bitişi-->
+            <div id="adres"> 
+                <div id="sol">
+                    <img src="resimler/logo_tr.png">
+                    <p> Akören Ali Rıza Ercan MYO <br>
+                        Yeni Mahalle Nurullah Ercan Sokak <br>
+                        Pk:42060 Akören/KONYA
+                    </p>
+                </div><!--Sol Adres Bitişi-->
+                <div id="sag">
+                    <h3>İletişim Bilgileri</h3>
+                    <ul>
+                        <li>Telefon: 0 332 461 28 90</li>
+                        <li>Fax: 0 332 461 28 92</li>
+                        <li>Mail: <a href="mailto:akorenmyo@selcuk.edu.tr">akorenmyo@selcuk.edu.tr</a></li>
+                    </ul>
+                </div><!--Sağ Adres Bitişi-->
+            <div style="clear: both;"></div>
+            </div><!--Adres Bitişi-->
+    </div> <!--Sayfa Bitişi-->
+   <script src="slide.js"></script> 
+</body>
+</html>
